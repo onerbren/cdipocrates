@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- Sitio web del centro diagnostico ipocrates | Juniors Quintana (designer and developer) --> 
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" lang="es"> 
+    <title>CDIPOCRATES |Resonancias Magneticas, Tomografias, Mamografias, Densitometrias|Lider en imagenes a nivel Regional|</title> 
+    <meta name="description" content="Centro Diagnostico Ipocrates Lider en imagenes a nivel Regional|Resonancias Magneticas, Tomografias, Mamografias, Densitometrias, Ultrasonidos|Equipos Siemens de Ultima Generacion|">
+    <meta name="author" content="Juniors Quintana Designer & Developer"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="http://cdipocrates.hol.es/images/favicon.ico">
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //Estilos - "Esto No lo hizo un Robot" Me gusta la Cerveza, me provoco Comentarlo, y usted tuvo la necesidad o la curiosidad de leerlo. Welcome!
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+        <!-- icons social media ipocrates  CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+    <link href="css/nav_footer.css" rel="stylesheet" type="text/css">
+    <link href="css/social.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/barra_oculta.css" title="style css" type="text/css" media="screen" charset="utf-8">
+    <link href="estudios/css/bootstrap.min.css" rel="stylesheet">
+    <!--Fuentes de letras -->
+
+   <link href='http://fonts.googleapis.com/css?family=Merienda:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
+    <style>
+		  html,body {
+			height: 100%;
+			margin: 0;
+			padding: 0;}
+		.site-name{
+		font-family: 'Merienda', Bold, cursive;}
+		.site-desc{font-family: 'Calligraffitti', normal;}
+		a {
+	    font-family: 'Lora', serif; font-weight: 700; color: #09f;}
+		a:hover { text-decoration: none;}
+    b{ color: #3EB694;}
+		#back_to_camera {
+			background: rgba(0,90,700,.9);
+			clear: both;
+			display: block;
+			height: 30px;
+			line-height: 40px;
+			padding: 20px;
+			position: relative;
+			z-index: 1;
+		}
+		.fluid_container {
+			bottom: 0;
+			height: 50%;
+			left: 0;
+			position: fixed;
+			right: 0;
+			top: 0;
+			z-index: 0;
+		}
+		#camera_wrap_4 {
+			bottom: 0;
+			height: 80%;
+			left: 0;
+			margin-bottom: 0!important;
+			position: fixed;
+			right: 0;
+			top: 75px;
+		}
+		.camera_bar {
+			z-index: 2;
+			background: #2EFE9A;
+			bottom: 99.1%;
+
+		}
+		.camera_thumbs {
+			margin-top: -95px;
+			position: relative;
+			z-index: 1;
+		
+		}
+		.camera_thumbs_cont {
+			border-radius: 0;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+		}
+		.camera_overlayer {
+			opacity: .1;
+		}
+	</style>
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type='text/javascript' src='scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
+      <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="estudios/scripts/ie-emulation-modes-warning.js"></script>
+    <script>
+		jQuery(function(){
+			jQuery('#camera_wrap_4').camera({
+				height: 'auto',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true,
+				hover: false,
+				opacityOnGrid: false,
+				imagePath: 'images/'
+			});
+		});
+	</script>
+ </head>
+<body>
+  	<!-- /Fixed Menu social -->
+<div class="social">
+    <ul>
+      <li><a href="https://www.facebook.com/pages/Centro-Diagn%C3%B3stico-Ip%C3%B3crates-ca/227748687371278?fref=ts" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+      <li><a href="https://twitter.com/cdipocrates/" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <li><a href="https://plus.google.com/112506313632675221238/posts?hl=es-419" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+      <li><a href="https://instagram.com/cdipocrates/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>  
+    </ul>
+</div>
+<header id="main-header">	
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+           <img src="estudios/images/leaf.jpg" style="width: 48px; height: 48px;" alt="Hipocrates" class="img-circle" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand site-name" href="#">CDIpocrates</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+        	<span class="site-desc">L&iacute;der regional en &iacute;magenes</span>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://cdipocrates.hol.es">Inicio</a></li>
+            <li><a href="http://cdipocrates.hol.es/estudios/rmn.html">Resonancia Magnetica</a></li>
+            <li><a href="http://cdipocrates.hol.es/estudios/tac.html">Tomografías</a></li>
+            <li><a href="http://cdipocrates.hol.es/estudios/mam.html">Mamografias</a></li>
+            <li><a href="http://cdipocrates.hol.es/estudios/dst.html">Densitometria Osea</a></li>
+            <li><a href="http://cdipocrates.hol.es/estudios/ecos.html">Ultrasonido</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	</header><!-- / #main-header -->
+<!--Slider  -->
+	<div class="fluid_container">
+        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+            <div data-thumb="images/slides/thumbs/leaf.jpg" data-src="images/slides/1.jpg" data-time="15000ms">
+            	<div class="camera_caption moveFromBottom"style="position:absolute; top:55%;color:#fff; padding:5px;"><span class="site-name"> Bienvenidos al portal web del <b>Centro Diagnostico Ipocrates</b> aqui le ofrecemos toda la informacion sobre nuestros servicios imagenológicos.</div>
+            </div></span>
+               <div data-thumb="images/slides/thumbs/rmn1.jpg" data-src="images/slides/2.JPG" data-time="12000ms">
+               	<div class="camera_caption moveFromLeft" style="position:absolute;top:3%;" >
+            		<span class="site-name">Resonancias mágneticas: Ya no tiene porque precouparse por espacio cerrados, si desea realizar el estudio debe descargar la siguiente encuesta
+            			<a href="estudios/rmn.html" target="_blank">Léer m&aacute;s...</a>
+            	</spam>
+            </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/tac.jpg" data-src="images/slides/3.jpg" data-time="12000ms">
+            	<div class="camera_caption moveFromLeft" style="position:absolute; top:10%; ">
+            		<span class="site-name">Tomografia axial y reconstruccion tridimensional. Si opta por realizar un estudio de tomografia debe descargar la siguiente encuesta:
+            			<a href="http://cdipocrates.hol.es/estudios/tac.html" target="_blank">Léer más...</a>
+            	</span>
+            	</div>
+            </div>
+            <div data-thumb="images/slides/thumbs/mam.jpg" data-src="images/slides/4.png" data-time="12000ms">
+            	<div class="camera_caption moveFromRight"style="position:absolute; top:10%; ">
+            		<span class="site-name">Mamografia Bilateral. Si opta por realizar estudio de mamografía bilateral debe descargar la siguiente encuesta:
+            	<a href="http://cdipocrates.hol.es/estudios/mam.html" target="_blank">Léer más...</a></span>
+            </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/dst.jpg" data-src="images/slides/5.jpg" data-time="12000ms">
+            	<div class="camera_caption moveFromRight"style="position:absolute; top:3%; ">
+                <span class="site-name"> Densitometria ósea cuerpo completo, <a href="http://cdipocrates.hol.es/estudios/dst.html" target="_blank">Léer más...</a></span> </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/ultra.jpg" data-src="images/slides/6.jpg" data-time="12000ms">
+            		<div class="camera_caption moveFromRight"style="position:absolute; top:3%; "> <span class="site-name">Ultrasonidos <a href="http://cdipocrates.hol.es/estudios/ecos.html" target="_blank">Léer más...</a></span></div>
+            </div>
+        </div><!-- #camera_wrap_4 -->
+    </div><!-- .fluid_container -->
+	<!-- Pie de pagina estatico "Fixed"-->
+<footer id="main-footer">
+	<p>&copy; 2015 Centro Diagnostico Ipocrates C.A. RIF: J-29506915-4||Diseño & Desarrollo Web <a href="http://bren.hol.es/enlaces/acerca.html">  Juniors Quintana</a></p>
+</footer> <!-- / #main-footer -->
+ <!-- JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   <script src="estudios/scripts/bootstrap.min.js"></script>
+   <script src="estudios/scripts/ie10-viewport-bug-workaround.js"></script> 
+</body> 
+</html>
